@@ -1,0 +1,113 @@
+body
+{
+	overflow-x: hidden;
+	margin: 0;
+}
+
+#firstBanner /*Bannière du haut*/
+{
+	display: block;
+	background-color: #B3F5FF;
+	height: 80px;
+	width: 100%;
+}
+
+#firstBanner img /*Logo de la bannière du haut*/
+{
+	width:104px;
+  	height:81px;
+  	position: fixed;
+}
+
+#firstBanner p /*Texte de la bannière du haut*/
+{
+	position: relative;
+	font-family: Impact, fantasy;
+	font-weight: bold;
+	font-size: 45px;
+	top: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+#menu /*Design du menu*/
+{
+	min-width: 500px;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #EDFDFF;
+}
+
+#menu ul
+{
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+}
+
+#menu ul li
+{
+	margin-left: 45px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a /*Bouton du menu*/
+{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #004DFF;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+#menu ul li a:hover /*Bouton du menu lorsque la souris est dessus*/
+{
+	background: #00A2FF;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+}
+
+#finalBanner /*Bannière du bas*/
+{
+	display: block;
+	background-color: #B3F5FF;
+	height: 50px;
+	width: 100%;
+}
+
+#content /*Contenu de la page*/
+{
+	display: block;
+	width: 900px;
+	margin: auto;
+}
+
+#footer /*Footer*/
+{
+	text-align: center;
+	display: block;
+	background-color: #B3F5FF;
+	height: 60px;
+}
+
+#footer p /*Texte du footer*/
+{
+	color: #000000;
+	font-family: DejaVu Sans Mono, monospace;
+	font-weight: bold;
+	position: relative;
+	top: 18px;
+}
