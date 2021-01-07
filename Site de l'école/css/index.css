@@ -4,11 +4,11 @@ header.header img {
 
 body /*Photo Sta*/
 {
-	overflow-x: scroll;
+	overflow-y: scroll;
 	margin: 0;
-	background: url("../img/b.png");
+	background: url("../img/t.png");
 	background-size: cover;
-	height: 365vh;
+	height: 35vh;
 	padding: 20px;
 }
 
@@ -17,11 +17,13 @@ body /*Photo Sta*/
 	position: relative;
 	font-family: Impact, fantasy;
 	font-weight: bold;
-	font-size: 100px;
+	font-size: 125px;
+	padding-top: 50;
 	bottom: 115px;
 	margin: 0;
 	text-align: center;
-	color: yellow;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.05em black;
 }
 
 
@@ -41,7 +43,7 @@ body /*Photo Sta*/
 	float: left;
 	left: 50%;
 	position: relative;
-	bottom: 100px;
+	top: 25px;
 	margin-left: -60px;
 }
 
@@ -59,22 +61,26 @@ body /*Photo Sta*/
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: #004DFF;
-	padding: 20px;
-	border-radius: 5px;
+	background: #0000FF;
+	padding: 30px;
+	border-radius: 15px;
 	display: inline-block;
 	border: none;
 	transition: all 0.4s ease 0s;
+	text-shadow: 0.1em 0.1em 0.05em black;
+	box-shadow: 0.15em 0.15em 0.15em black;
 }
 
 #menu ul li a:hover /*Bouton du menu lorsque la souris est dessus*/
 {
-	background: #00A2FF;
+	background: #1E90FF;
 	letter-spacing: 1px;
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 	transition: all 0.3s ease 0s;
+
+
 }
-/*Fin des trois boutons*/
+/*Fin des trois boutons*/ 
 ######################################################################
