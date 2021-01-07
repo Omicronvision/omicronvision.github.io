@@ -1,34 +1,66 @@
-body
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Omicronvision 
+Omicronvision
+/
+omicronvision.github.io
+1
+10
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+omicronvision.github.io/Site de l'école/css/index.css
+@AzanaDev
+AzanaDev Update index.css
+Latest commit 54e1e94 1 minute ago
+ History
+ 2 contributors
+@Genos450@AzanaDev
+86 lines (75 sloc)  1.61 KB
+  
+header.header img {
+    width: 150px;
+}
+
+body /*Photo Sta*/
 {
-	overflow-x: hidden;
+	overflow-y: scroll;
 	margin: 0;
+	background: url("../img/t.png");
+	background-size: cover;
+	height: 35vh;
+	padding: 20px;
 }
 
-#firstBanner /*Bannière du haut*/
-{
-	display: block;
-	background-color: #B3F5FF;
-	height: 80px;
-	width: 100%;
-}
-
-#firstBanner img /*Logo de la bannière du haut*/
-{
-	width:104px;
-  	height:81px;
-  	position: fixed;
-}
-
-#firstBanner p /*Texte de la bannière du haut*/
+#firstBanner p /*Texte : Sta*/
 {
 	position: relative;
 	font-family: Impact, fantasy;
 	font-weight: bold;
-	font-size: 45px;
-	top: 12px;
+	font-size: 125px;
+	padding-top: 50;
+	bottom: 115px;
 	margin: 0;
 	text-align: center;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.05em black;
 }
+
+
+######################################################################
+/*Debut des trois Bouton*/
 
 #menu /*Design du menu*/
 {
@@ -36,7 +68,6 @@ body
 	width: 100%;
 	height: 100px;
 	position: relative;
-	background-color: #EDFDFF;
 }
 
 #menu ul
@@ -44,7 +75,7 @@ body
 	float: left;
 	left: 50%;
 	position: relative;
-	padding-top: 15px;
+	top: 25px;
 	margin-left: -60px;
 }
 
@@ -59,55 +90,41 @@ body
 
 #menu ul li a /*Bouton du menu*/
 {
-	color: #fff;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: #004DFF;
-	padding: 20px;
-	border-radius: 5px;
+	background: #0000FF;
+	padding: 30px;
+	border-radius: 15px;
 	display: inline-block;
 	border: none;
 	transition: all 0.4s ease 0s;
+	text-shadow: 0.1em 0.1em 0.05em black;
+	box-shadow: 0.15em 0.15em 0.15em black;
 }
 
 #menu ul li a:hover /*Bouton du menu lorsque la souris est dessus*/
 {
-	background: #00A2FF;
+	background: #1E90FF;
 	letter-spacing: 1px;
 	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 	transition: all 0.3s ease 0s;
-}
 
-#finalBanner /*Bannière du bas*/
-{
-	display: block;
-	background-color: #B3F5FF;
-	height: 50px;
-	width: 100%;
-}
 
-#content /*Contenu de la page*/
-{
-	display: block;
-	width: 900px;
-	margin: auto;
 }
-
-#footer /*Footer*/
-{
-	text-align: center;
-	display: block;
-	background-color: #B3F5FF;
-	height: 60px;
-}
-
-#footer p /*Texte du footer*/
-{
-	color: #000000;
-	font-family: DejaVu Sans Mono, monospace;
-	font-weight: bold;
-	position: relative;
-	top: 18px;
-}
+/*Fin des trois boutons*/ 
+######################################################################
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
