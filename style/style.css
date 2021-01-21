@@ -71,6 +71,11 @@ body /*Photo Sta*/
 	box-shadow: 0.15em 0.15em 0.15em black;
 }
 
+#menu ul li a:visited /*Bouton du menu lorsque déjà cliqué*/
+{
+	background: #14599c;
+}
+
 #menu ul li a:hover /*Bouton du menu lorsque la souris est dessus*/
 {
 	background: #1E90FF;
@@ -79,8 +84,6 @@ body /*Photo Sta*/
 	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 	transition: all 0.3s ease 0s;
-
-
 }
-/*Fin des trois boutons*/ 
+/*Fin des quatre boutons*/ 
 ######################################################################
