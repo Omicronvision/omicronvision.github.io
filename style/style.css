@@ -71,7 +71,7 @@ body /*Photo Sta*/
 	box-shadow: 0.15em 0.15em 0.15em black;
 }
 
-#menu ul li a:visited /*Bouton du menu lorsque déjà cliqué*/
+#menu ul li a:focus /*Bouton du menu lorsque déjà cliqué*/
 {
 	background: #2702a4;
 }
