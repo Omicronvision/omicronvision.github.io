@@ -4,5 +4,8 @@ window.desktopcheck = function()
     {
         alert("MOBILE");
         document.getElementsById("firstBanner").style.content = "Mobile";
+    } else
+    {
+        alert("ORDINATEUR");
     }
 }
