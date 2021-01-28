@@ -27,7 +27,7 @@ body /*Photo Sta*/
 {
 	overflow-y: scroll;
 	margin: 0;
-	background: url("../img/t.png");
+	background: url("../img/test.png");
 	background-size: cover;
 	height: 35vh;
 	padding: 20px;
