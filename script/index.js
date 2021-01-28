@@ -1,4 +1,4 @@
-window.desktopcheck = function()
+function windowCheckDesktop()
 {
     if(window.innerWidth>768)
     {
@@ -10,4 +10,4 @@ window.desktopcheck = function()
     }
 }
 
-window.desktopcheck();
+windowCheckDesktop();
