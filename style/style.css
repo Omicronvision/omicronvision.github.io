@@ -1,7 +1,6 @@
 /*partie pour les téléphones */
-@media screen and (min-width: 1366px)
+@media (max-width: 1000px)
 {
-	box-sizing: border-box;
 	#firstBanner p /*Texte : Sta*/
 	{
 		position: relative;
