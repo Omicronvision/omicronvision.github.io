@@ -1,14 +1,22 @@
 /*partie pour les téléphones */
-@media (max-width: 640px) 
-	{
-		box-sizing: border-box;
-	}
-body 
+@media screen and (min-width: 1366px)
 {
-	width: auto;
-	padding: 0;
-	margin: 0;
+	box-sizing: border-box;
+	#firstBanner p /*Texte : Sta*/
+	{
+		position: relative;
+		font-family: Impact, fantasy;
+		font-weight: bold;
+		font-size: 125px;
+		padding-top: 50;
+		bottom: 115px;
+		margin: 0;
+		text-align: center;
+		color: red;
+		text-shadow: 0.1em 0.1em 0.05em black;
+	}
 }
+
 /*mettre à 100% les éléments potentiellement prolématique */
 #img, #menu, #firstBanner 
 {
@@ -25,9 +33,12 @@ header.header img {
 
 body /*Photo Sta*/
 {
+	width: auto;
+	padding: 0;
+	margin: 0;
 	overflow-y: scroll;
 	margin: 0;
-	background: url("../img/test.png");
+	background: url("../img/t.png");
 	background-size: cover;
 	height: 35vh;
 	padding: 20px;
