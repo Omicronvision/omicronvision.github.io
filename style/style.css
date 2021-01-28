@@ -1,21 +1,3 @@
-/*partie pour les téléphones */
-@media (max-width: 1000px)
-{
-	#firstBanner p /*Texte : Sta*/
-	{
-		position: relative;
-		font-family: Impact, fantasy;
-		font-weight: bold;
-		font-size: 125px;
-		padding-top: 50;
-		bottom: 115px;
-		margin: 0;
-		text-align: center;
-		color: red;
-		text-shadow: 0.1em 0.1em 0.05em black;
-	}
-}
-
 /*mettre à 100% les éléments potentiellement prolématique */
 #img, #menu, #firstBanner 
 {
