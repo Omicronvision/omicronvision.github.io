@@ -1,6 +1,7 @@
 function windowCheckDesktop()
 {
-    if(window.innerWidth>768)
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if(isMobile)
     {
         alert("MOBILE");
         document.getElementsById("firstBanner").style.content = "Mobile";
