@@ -1,7 +1,7 @@
-window.desktopcheck = function() {
-  var check = false;
-  if(window.innerWidth>768){
-      check=true;
-  }
-  return check;
+window.desktopcheck = function()
+{
+    if(window.innerWidth>768)
+    {
+        document.getElementsById("firstBanner").style.content = "Mobile";
+    }
 }
