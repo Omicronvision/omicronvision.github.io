@@ -9,3 +9,5 @@ window.desktopcheck = function()
         alert("ORDINATEUR");
     }
 }
+
+window.desktopcheck();
