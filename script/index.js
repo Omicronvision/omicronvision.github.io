@@ -4,7 +4,7 @@ function windowCheckDesktop()
     if(isMobile)
     {
         //alert("MOBILE");
-        document.getElementsById("firstBanner").style.content = "Mobile";
+        document.getElementById("firstBanner").style.color="blue";
     } else
     {
         //alert("ORDINATEUR");
